@@ -22,7 +22,7 @@ const Testimonials = () => {
       name: "Naisha Bansal",
       university: "NYU Early Decision",
       program: "Economics",
-      content: "Shrey and Divyansh didn't just help with my application - they helped me discover my true interests and build a coherent narrative. The extracurricular guidance was particularly valuable.",
+      content: "Shrey and Divyansh didn't just help with my application - they helped me discover my true interests and build a coherent narrative. The extracurricular guidance was particularly valuable, and they connected me with amazing internship opportunities that strengthened my profile significantly. Their mentorship approach is truly personalized and comprehensive.",
       rating: 5
     }
   ];

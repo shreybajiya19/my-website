@@ -4,13 +4,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
-  const scrollToServices = () => {
-    const servicesElement = document.querySelector('#services');
-    if (servicesElement) {
-      servicesElement.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <div className="bg-slate-900 text-white">
       {/* CTA Section */}
@@ -37,35 +30,23 @@ const Footer = () => {
       {/* Footer Content */}
       <div className="py-16">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="md:col-span-2">
-              <div className="flex items-center gap-2 mb-6">
-                <Award className="h-8 w-8 text-amber-400" />
-                <span className="text-2xl font-bold text-amber-400">AUREUS MENTORSHIP PROGRAM</span>
-              </div>
-              <p className="text-gray-300 mb-6 leading-relaxed">
-                Premium college application mentorship program dedicated to helping students achieve their dreams of attending world-class universities.
-              </p>
-              <div className="space-y-3">
-                <div className="flex items-center gap-3 text-gray-300">
-                  <Mail className="h-5 w-5 text-amber-400" />
-                  <span>shreybajiya19@gmail.com</span>
-                </div>
-                <div className="flex items-center gap-3 text-gray-300">
-                  <Phone className="h-5 w-5 text-amber-400" />
-                  <span>+91 7678044282</span>
-                </div>
-              </div>
+          <div className="max-w-4xl mx-auto text-center">
+            <div className="flex justify-center items-center gap-2 mb-6">
+              <Award className="h-8 w-8 text-amber-400" />
+              <span className="text-2xl font-bold text-amber-400">AUREUS MENTORSHIP PROGRAM</span>
             </div>
-            
-            <div>
-              <h3 className="text-xl font-bold mb-6">Services</h3>
-              <ul className="space-y-3 text-gray-300">
-                <li className="hover:text-amber-400 cursor-pointer transition-colors" onClick={scrollToServices}>Essay Editing</li>
-                <li className="hover:text-amber-400 cursor-pointer transition-colors" onClick={scrollToServices}>Internship Placement</li>
-                <li className="hover:text-amber-400 cursor-pointer transition-colors" onClick={scrollToServices}>Extracurricular Building</li>
-                <li className="hover:text-amber-400 cursor-pointer transition-colors" onClick={scrollToServices}>Application Strategy</li>
-              </ul>
+            <p className="text-gray-300 mb-6 leading-relaxed">
+              Premium college application mentorship program dedicated to helping students achieve their dreams of attending world-class universities.
+            </p>
+            <div className="space-y-3">
+              <div className="flex justify-center items-center gap-3 text-gray-300">
+                <Mail className="h-5 w-5 text-amber-400" />
+                <span>shreybajiya19@gmail.com</span>
+              </div>
+              <div className="flex justify-center items-center gap-3 text-gray-300">
+                <Phone className="h-5 w-5 text-amber-400" />
+                <span>+91 7678044282</span>
+              </div>
             </div>
           </div>
           

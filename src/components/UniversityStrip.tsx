@@ -8,7 +8,7 @@ const UniversityStrip = () => {
     { name: "Princeton", logo: "https://logos-world.net/wp-content/uploads/2020/06/Princeton-Logo.png", count: 2 },
     { name: "Columbia", logo: "https://logos-world.net/wp-content/uploads/2020/06/Columbia-Logo.png", count: 3 },
     { name: "UC Berkeley", logo: "https://logos-world.net/wp-content/uploads/2020/06/UC-Berkeley-Logo.png", count: 6 },
-    { name: "LSE", logo: "https://1000logos.net/wp-content/uploads/2017/02/LSE-Logo.png", count: 2 }
+    { name: "LSE", logo: "/lovable-uploads/81c10495-c095-42a2-a9ee-fec3fb09fb2a.png", count: 2 }
   ];
 
   return (

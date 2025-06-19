@@ -23,14 +23,14 @@ const Founders = () => {
                 <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden shadow-lg">
                   <img 
                     src="/lovable-uploads/18b83c54-c811-4015-aca2-f896df0ba148.png" 
-                    alt="Shrey"
+                    alt="Shrey Bajiya"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-3xl font-bold text-slate-800 mb-2">Shrey</h3>
+                <h3 className="text-3xl font-bold text-slate-800 mb-2">Shrey Bajiya</h3>
                 <div className="flex justify-center items-center gap-3 mb-4">
                   <div className="flex items-center gap-2 bg-blue-900 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    <img src="https://1000logos.net/wp-content/uploads/2017/02/LSE-Logo.png" alt="LSE" className="h-6 w-6 object-contain" />
+                    <img src="/lovable-uploads/81c10495-c095-42a2-a9ee-fec3fb09fb2a.png" alt="LSE" className="h-6 w-6 object-contain" />
                     LSE Admit
                   </div>
                 </div>
@@ -70,12 +70,12 @@ const Founders = () => {
               <div className="text-center mb-6">
                 <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden shadow-lg">
                   <img 
-                    src="/lovable-uploads/cf7f76f7-41f8-42aa-828b-35a497f393e8.png" 
-                    alt="Divyansh"
+                    src="/lovable-uploads/74b02a6a-82c1-4110-ab7d-79b69827ced2.png" 
+                    alt="Divyansh Koowal"
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-3xl font-bold text-slate-800 mb-2">Divyansh</h3>
+                <h3 className="text-3xl font-bold text-slate-800 mb-2">Divyansh Koowal</h3>
                 <div className="flex justify-center items-center gap-3 mb-4">
                   <div className="flex items-center gap-2 bg-blue-800 text-white px-4 py-2 rounded-full text-sm font-semibold">
                     <img src="https://logos-world.net/wp-content/uploads/2020/06/UC-Berkeley-Logo.png" alt="UC Berkeley" className="h-6 w-6 object-contain" />
