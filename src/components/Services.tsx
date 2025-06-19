@@ -1,26 +1,38 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { PenTool, Briefcase, Trophy, Target } from "lucide-react";
+import { PenTool, Lightbulb, Briefcase, MessageSquare, Award } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
       icon: <PenTool className="h-12 w-12 text-amber-500" />,
-      title: "Premium Essay Editing",
-      description: "Transform your personal statements and supplemental essays with expert guidance from Ivy League graduates. We help you craft compelling narratives that stand out.",
-      features: ["Personal Statement Perfection", "Supplemental Essay Strategy", "Multiple Revision Rounds", "Voice & Style Development"]
+      title: "Premium Essay Crafting",
+      description: "Premium essay crafting that grabs the admission officer's interest and makes your application stand out. Unlimited edit suggestions and reviews!",
+      features: ["Personal Statement Perfection", "Unlimited Revisions", "Admission Officer Appeal", "Voice & Style Development"]
+    },
+    {
+      icon: <Lightbulb className="h-12 w-12 text-purple-500" />,
+      title: "Passion Project Development",
+      description: "Extracurricular passion project development. Your ECs show your interests and your commitments, and we'll help you develop projects that make an impact on the reader!",
+      features: ["Impact-Focused Projects", "Interest Alignment", "Reader Engagement", "Commitment Demonstration"]
     },
     {
       icon: <Briefcase className="h-12 w-12 text-blue-500" />,
-      title: "Exclusive Internships",
-      description: "Access our curated network of premium internship opportunities at top companies and research institutions. Build experience that impresses admissions officers.",
-      features: ["Tech & Finance Internships", "Research Opportunities", "Startup Placements", "Government Programs"]
+      title: "Multinational Internships",
+      description: "Internship at a multinational firm in your intended major field (a tech firm in your case) of about 1-2 months (optional)",
+      features: ["Tech Industry Focus", "1-2 Month Duration", "Major-Specific Placement", "Optional Program"]
     },
     {
-      icon: <Trophy className="h-12 w-12 text-purple-500" />,
-      title: "Extracurricular Building",
-      description: "Develop a strategic extracurricular profile that demonstrates leadership, impact, and passion. We help you create activities that tell your unique story.",
-      features: ["Leadership Development", "Community Impact Projects", "Competition Strategy", "Passion Project Guidance"]
+      icon: <MessageSquare className="h-12 w-12 text-green-500" />,
+      title: "Interview Preparation",
+      description: "Interview prep as required. 5 preparation/mock interview sessions to ensure you're confident and ready for any admissions interview.",
+      features: ["5 Mock Sessions", "Personalized Feedback", "Confidence Building", "Strategy Development"]
+    },
+    {
+      icon: <Award className="h-12 w-12 text-red-500" />,
+      title: "Harvard Admissions Review",
+      description: "1 final full-profile review before submitting application by a former HARVARD ADMISSIONS OFFICER.",
+      features: ["Former Harvard Officer", "Complete Profile Review", "Pre-Submission Check", "Expert Final Assessment"]
     }
   ];
 
@@ -36,21 +48,21 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
                 <div className="flex justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                   {service.icon}
                 </div>
-                <CardTitle className="text-2xl font-bold text-slate-800">{service.title}</CardTitle>
+                <CardTitle className="text-xl font-bold text-slate-800">{service.title}</CardTitle>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-gray-600 mb-6 leading-relaxed">{service.description}</p>
                 <ul className="space-y-2">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-center justify-center gap-2 text-sm text-gray-700">
-                      <Target className="h-4 w-4 text-amber-500" />
+                      <div className="w-2 h-2 bg-amber-500 rounded-full"></div>
                       {feature}
                     </li>
                   ))}

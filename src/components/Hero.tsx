@@ -27,6 +27,7 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-black font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
+              onClick={() => window.open('https://form.typeform.com/to/JzjPOmfZ', '_blank')}
             >
               Apply Now
             </Button>

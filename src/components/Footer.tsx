@@ -19,6 +19,7 @@ const Footer = () => {
             <Button 
               size="lg" 
               className="bg-black text-white hover:bg-gray-800 px-12 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl"
+              onClick={() => window.open('https://form.typeform.com/to/JzjPOmfZ', '_blank')}
             >
               Apply Now - Limited Spots Available
             </Button>
