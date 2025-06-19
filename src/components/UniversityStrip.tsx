@@ -1,14 +1,14 @@
 
 const UniversityStrip = () => {
   const universities = [
-    { name: "Harvard", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/1200px-Harvard_University_coat_of_arms.svg.png", count: 5 },
-    { name: "Stanford", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Seal_of_Stanford_University.svg/1200px-Seal_of_Stanford_University.svg.png", count: 8 },
-    { name: "MIT", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MIT_logo.svg/1200px-MIT_logo.svg.png", count: 6 },
-    { name: "Yale", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Yale_University_Shield_1.svg/1200px-Yale_University_Shield_1.svg.png", count: 4 },
-    { name: "Princeton", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Princeton_seal.svg/1200px-Princeton_seal.svg.png", count: 7 },
-    { name: "Columbia", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Seal_of_Columbia_University.svg/1200px-Seal_of_Columbia_University.svg.png", count: 9 },
-    { name: "UC Berkeley", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Seal_of_University_of_California%2C_Berkeley.svg/1200px-Seal_of_University_of_California%2C_Berkeley.svg.png", count: 12 },
-    { name: "LSE", logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/LSE_Logo.svg/1200px-LSE_Logo.svg.png", count: 3 }
+    { name: "Harvard", logo: "https://logos-world.net/wp-content/uploads/2020/06/Harvard-Logo.png", count: 2 },
+    { name: "Stanford", logo: "https://logos-world.net/wp-content/uploads/2020/06/Stanford-Logo.png", count: 4 },
+    { name: "MIT", logo: "https://logos-world.net/wp-content/uploads/2020/06/MIT-Logo.png", count: 1 },
+    { name: "Yale", logo: "https://logos-world.net/wp-content/uploads/2020/06/Yale-Logo.png", count: 3 },
+    { name: "Princeton", logo: "https://logos-world.net/wp-content/uploads/2020/06/Princeton-Logo.png", count: 2 },
+    { name: "Columbia", logo: "https://logos-world.net/wp-content/uploads/2020/06/Columbia-Logo.png", count: 3 },
+    { name: "UC Berkeley", logo: "https://logos-world.net/wp-content/uploads/2020/06/UC-Berkeley-Logo.png", count: 6 },
+    { name: "LSE", logo: "https://1000logos.net/wp-content/uploads/2017/02/LSE-Logo.png", count: 2 }
   ];
 
   return (

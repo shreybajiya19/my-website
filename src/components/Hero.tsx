@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex justify-center items-center gap-2 mb-6">
             <Award className="h-8 w-8 text-amber-400" />
-            <span className="text-2xl font-bold tracking-wider text-amber-400">AUREUS</span>
+            <span className="text-2xl font-bold tracking-wider text-amber-400">AUREUS MENTORSHIP PROGRAM</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-amber-200 bg-clip-text text-transparent leading-tight">
@@ -20,10 +20,10 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Elite guidance from top university graduates. Transform your college application into a masterpiece with personalized mentorship that gets results.
+            Elite guidance from top university admits. Transform your college application into a masterpiece with personalized mentorship that gets results.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex justify-center items-center mb-12">
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-black font-semibold px-8 py-4 text-lg transition-all duration-300 transform hover:scale-105 shadow-xl"
@@ -31,23 +31,16 @@ const Hero = () => {
             >
               Apply Now
             </Button>
-            <Button 
-              variant="outline" 
-              size="lg" 
-              className="border-2 border-white/30 text-white hover:bg-white/10 px-8 py-4 text-lg transition-all duration-300"
-            >
-              Learn More
-            </Button>
           </div>
           
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Users className="h-5 w-5 text-amber-400" />
-              <span className="text-gray-300">500+ Students Mentored</span>
+              <span className="text-gray-300">50+ Students Mentored</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="h-5 w-5 text-amber-400" />
-              <span className="text-gray-300">98% Success Rate</span>
+              <span className="text-gray-300">20 Students per Application Cycle</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-amber-400" />

@@ -5,10 +5,10 @@ import { Star, Quote } from "lucide-react";
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Chen",
-      university: "Harvard University",
-      program: "Economics",
-      content: "Aureus transformed my application completely. Their essay guidance helped me articulate my passion for economics in a way that truly resonated with admissions officers. The personalized attention was incredible.",
+      name: "Somyak Agarwal",
+      university: "Boston University, Emory",
+      program: "Computer Science + Business",
+      content: "Aureus transformed my application completely. Their essay guidance helped me articulate my passion for technology and business in a way that truly resonated with admissions officers. The personalized attention was incredible.",
       rating: 5
     },
     {
@@ -19,9 +19,9 @@ const Testimonials = () => {
       rating: 5
     },
     {
-      name: "Emily Thompson",
-      university: "MIT",
-      program: "Engineering",
+      name: "Naisha Bansal",
+      university: "NYU Early Decision",
+      program: "Economics",
       content: "Shrey and Divyansh didn't just help with my application - they helped me discover my true interests and build a coherent narrative. The extracurricular guidance was particularly valuable.",
       rating: 5
     }

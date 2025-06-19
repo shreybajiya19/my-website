@@ -19,20 +19,14 @@ const Services = () => {
     {
       icon: <Briefcase className="h-12 w-12 text-blue-500" />,
       title: "Multinational Internships",
-      description: "Internship at a multinational firm in your intended major field (a tech firm in your case) of about 1-2 months (optional)",
-      features: ["Tech Industry Focus", "1-2 Month Duration", "Major-Specific Placement", "Optional Program"]
+      description: "Internship at a multinational company in applicant's intended major field of 1-2 months duration, with certificate.",
+      features: ["Major-Specific Placement", "1-2 Month Duration", "Certificate Provided", "Multinational Company"]
     },
     {
       icon: <MessageSquare className="h-12 w-12 text-green-500" />,
       title: "Interview Preparation",
       description: "Interview prep as required. 5 preparation/mock interview sessions to ensure you're confident and ready for any admissions interview.",
       features: ["5 Mock Sessions", "Personalized Feedback", "Confidence Building", "Strategy Development"]
-    },
-    {
-      icon: <Award className="h-12 w-12 text-red-500" />,
-      title: "Harvard Admissions Review",
-      description: "1 final full-profile review before submitting application by a former HARVARD ADMISSIONS OFFICER.",
-      features: ["Former Harvard Officer", "Complete Profile Review", "Pre-Submission Check", "Expert Final Assessment"]
     }
   ];
 
@@ -48,7 +42,7 @@ const Services = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 mb-12">
           {services.map((service, index) => (
             <Card key={index} className="group hover:shadow-2xl transition-all duration-300 border-0 shadow-lg hover:-translate-y-2">
               <CardHeader className="text-center pb-4">
@@ -70,6 +64,40 @@ const Services = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Harvard Admissions Review - Emphasized Section */}
+        <div className="max-w-4xl mx-auto">
+          <Card className="group hover:shadow-2xl transition-all duration-300 border-4 border-amber-400 shadow-2xl bg-gradient-to-br from-amber-50 to-white">
+            <CardHeader className="text-center pb-4 bg-gradient-to-r from-amber-100 to-amber-50">
+              <div className="flex justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-white rounded-full p-2 shadow-lg">
+                  <img 
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/1200px-Harvard_University_coat_of_arms.svg.png" 
+                    alt="Harvard" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+              <CardTitle className="text-2xl font-bold text-slate-800 mb-2">Harvard Admissions Review</CardTitle>
+              <div className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold inline-block">
+                EXCLUSIVE OFFERING
+              </div>
+            </CardHeader>
+            <CardContent className="text-center p-8">
+              <p className="text-gray-700 mb-6 leading-relaxed text-lg">
+                1 final full-profile review before submitting application by a former HARVARD ADMISSIONS OFFICER.
+              </p>
+              <ul className="space-y-3">
+                {["Former Harvard Officer", "Complete Profile Review", "Pre-Submission Check", "Expert Final Assessment"].map((feature, idx) => (
+                  <li key={idx} className="flex items-center justify-center gap-2 text-gray-700 font-semibold">
+                    <div className="w-3 h-3 bg-red-600 rounded-full"></div>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </div>
