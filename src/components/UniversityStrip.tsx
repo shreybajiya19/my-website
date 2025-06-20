@@ -1,4 +1,5 @@
 
+
 const UniversityStrip = () => {
   const universities = [
     { name: "Harvard", logo: "/lovable-uploads/d7bfc3b5-7528-4810-a57a-3eb1682a7b71.png", count: 2 },
@@ -26,9 +27,9 @@ const UniversityStrip = () => {
         </div>
         
         <div className="relative">
-          <div className="flex animate-[slide-in-right_30s_linear_infinite] gap-16">
-            {[...universities, ...universities].map((university, index) => (
-              <div key={index} className="flex-shrink-0 text-center group">
+          <div className="flex animate-[slide-in-right_50s_linear_infinite] gap-16">
+            {[...universities, ...universities, ...universities].map((university, index) => (
+              <div key={`${university.name}-${index}`} className="flex-shrink-0 text-center group">
                 <div className="w-24 h-24 bg-white rounded-full p-4 mx-auto mb-4 shadow-xl group-hover:scale-110 transition-transform duration-300">
                   <img 
                     src={university.logo} 
@@ -50,3 +51,4 @@ const UniversityStrip = () => {
 };
 
 export default UniversityStrip;
+
