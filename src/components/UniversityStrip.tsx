@@ -26,7 +26,7 @@ const UniversityStrip = () => {
         </div>
         
         <div className="relative">
-          <div className="flex animate-[scroll-left_40s_linear_infinite] gap-16">
+          <div className="flex animate-[scroll_40s_linear_infinite] gap-16">
             {/* First set of universities */}
             {universities.map((university, index) => (
               <div key={`first-${index}`} className="flex-shrink-0 text-center group">
@@ -62,17 +62,6 @@ const UniversityStrip = () => {
           </div>
         </div>
       </div>
-      
-      <style jsx>{`
-        @keyframes scroll-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-      `}</style>
     </div>
   );
 };
