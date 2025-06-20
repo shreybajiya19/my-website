@@ -1,4 +1,3 @@
-
 const UniversityStrip = () => {
   const universities = [
     { name: "Harvard", logo: "/lovable-uploads/d7bfc3b5-7528-4810-a57a-3eb1682a7b71.png", count: 2 },
@@ -26,26 +25,9 @@ const UniversityStrip = () => {
         </div>
         
         <div className="relative">
-          <div className="flex animate-[scroll-left_40s_linear_infinite] gap-16">
-            {/* First set of universities */}
-            {universities.map((university, index) => (
-              <div key={`first-${index}`} className="flex-shrink-0 text-center group">
-                <div className="w-24 h-24 bg-white rounded-full p-4 mx-auto mb-4 shadow-xl group-hover:scale-110 transition-transform duration-300">
-                  <img 
-                    src={university.logo} 
-                    alt={university.name}
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="bg-amber-500 text-black font-bold text-2xl w-12 h-12 rounded-full flex items-center justify-center mx-auto shadow-lg">
-                  {university.count}
-                </div>
-                <p className="text-white font-semibold mt-2">{university.name}</p>
-              </div>
-            ))}
-            {/* Second set for seamless loop */}
-            {universities.map((university, index) => (
-              <div key={`second-${index}`} className="flex-shrink-0 text-center group">
+          <div className="flex animate-[slide-in-right_30s_linear_infinite] gap-16">
+            {[...universities, ...universities].map((university, index) => (
+              <div key={index} className="flex-shrink-0 text-center group">
                 <div className="w-24 h-24 bg-white rounded-full p-4 mx-auto mb-4 shadow-xl group-hover:scale-110 transition-transform duration-300">
                   <img 
                     src={university.logo} 
@@ -62,17 +44,6 @@ const UniversityStrip = () => {
           </div>
         </div>
       </div>
-      
-      <style jsx>{`
-        @keyframes scroll-left {
-          0% {
-            transform: translateX(0);
-          }
-          100% {
-            transform: translateX(-50%);
-          }
-        }
-      `}</style>
     </div>
   );
 };
