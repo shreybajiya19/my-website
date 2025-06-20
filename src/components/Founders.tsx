@@ -39,15 +39,15 @@ const Founders = () => {
                   <p className="text-sm font-semibold text-gray-700 mb-2">Also got into:</p>
                   <div className="flex justify-center items-center gap-2 flex-wrap">
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://logos-world.net/wp-content/uploads/2021/11/UCL-Logo.png" alt="UCL" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/dfc2f5af-3e80-4652-be3a-adbf8c6fc15f.png" alt="UCL" className="h-4 w-4 object-contain" />
                       UCL
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://logos-world.net/wp-content/uploads/2022/01/University-of-St-Andrews-Logo.png" alt="St Andrews" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/6bde60e0-176a-4462-be06-ad5b15caed74.png" alt="St Andrews" className="h-4 w-4 object-contain" />
                       St Andrews
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://1000logos.net/wp-content/uploads/2022/08/Kings-College-London-Logo.png" alt="KCL" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/5df6e037-024b-4bd0-b707-91cbcf853fdb.png" alt="KCL" className="h-4 w-4 object-contain" />
                       KCL
                     </div>
                   </div>
@@ -78,7 +78,7 @@ const Founders = () => {
                 <h3 className="text-3xl font-bold text-slate-800 mb-2">Divyansh Koowal</h3>
                 <div className="flex justify-center items-center gap-3 mb-4">
                   <div className="flex items-center gap-2 bg-blue-800 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                    <img src="https://logos-world.net/wp-content/uploads/2020/06/UC-Berkeley-Logo.png" alt="UC Berkeley" className="h-6 w-6 object-contain" />
+                    <img src="/lovable-uploads/d0ce02b2-f59f-4932-8607-e79326219e4b.png" alt="UC Berkeley" className="h-6 w-6 object-contain" />
                     UC Berkeley Admit
                   </div>
                 </div>
@@ -87,15 +87,15 @@ const Founders = () => {
                   <p className="text-sm font-semibold text-gray-700 mb-2">Also got into:</p>
                   <div className="flex justify-center items-center gap-2 flex-wrap">
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://logos-world.net/wp-content/uploads/2020/06/UCSD-Logo.png" alt="UCSD" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/173b5f15-a2bd-4dc3-a8f4-eb110a0db0cf.png" alt="UCSD" className="h-4 w-4 object-contain" />
                       UCSD
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://logos-world.net/wp-content/uploads/2020/06/USC-Logo.png" alt="USC" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/3756ca46-e4d8-4699-b7e4-3ffcc29bb69d.png" alt="USC" className="h-4 w-4 object-contain" />
                       USC
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="https://logos-world.net/wp-content/uploads/2020/06/Purdue-Logo.png" alt="Purdue" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/ce16da0f-1291-4726-bbd0-9684bad8e371.png" alt="Purdue" className="h-4 w-4 object-contain" />
                       Purdue
                     </div>
                   </div>

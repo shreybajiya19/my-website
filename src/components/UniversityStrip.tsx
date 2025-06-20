@@ -1,14 +1,16 @@
 
 const UniversityStrip = () => {
   const universities = [
-    { name: "Harvard", logo: "https://logos-world.net/wp-content/uploads/2020/06/Harvard-Logo.png", count: 2 },
-    { name: "Stanford", logo: "https://logos-world.net/wp-content/uploads/2020/06/Stanford-Logo.png", count: 4 },
-    { name: "MIT", logo: "https://logos-world.net/wp-content/uploads/2020/06/MIT-Logo.png", count: 1 },
-    { name: "Yale", logo: "https://logos-world.net/wp-content/uploads/2020/06/Yale-Logo.png", count: 3 },
-    { name: "Princeton", logo: "https://logos-world.net/wp-content/uploads/2020/06/Princeton-Logo.png", count: 2 },
-    { name: "Columbia", logo: "https://logos-world.net/wp-content/uploads/2020/06/Columbia-Logo.png", count: 3 },
-    { name: "UC Berkeley", logo: "https://logos-world.net/wp-content/uploads/2020/06/UC-Berkeley-Logo.png", count: 6 },
-    { name: "LSE", logo: "/lovable-uploads/81c10495-c095-42a2-a9ee-fec3fb09fb2a.png", count: 2 }
+    { name: "Harvard", logo: "/lovable-uploads/d7bfc3b5-7528-4810-a57a-3eb1682a7b71.png", count: 2 },
+    { name: "Stanford", logo: "/lovable-uploads/6bde60e0-176a-4462-be06-ad5b15caed74.png", count: 4 },
+    { name: "MIT", logo: "/lovable-uploads/ca6cc274-adb3-43c2-b5a3-82b7a6b0b0ae.png", count: 1 },
+    { name: "Yale", logo: "/lovable-uploads/da829a11-133e-4b15-843b-2664f8006056.png", count: 3 },
+    { name: "Princeton", logo: "/lovable-uploads/ce16da0f-1291-4726-bbd0-9684bad8e371.png", count: 2 },
+    { name: "Columbia", logo: "/lovable-uploads/5df6e037-024b-4bd0-b707-91cbcf853fdb.png", count: 3 },
+    { name: "UC Berkeley", logo: "/lovable-uploads/d0ce02b2-f59f-4932-8607-e79326219e4b.png", count: 6 },
+    { name: "LSE", logo: "/lovable-uploads/81c10495-c095-42a2-a9ee-fec3fb09fb2a.png", count: 2 },
+    { name: "USC", logo: "/lovable-uploads/3756ca46-e4d8-4699-b7e4-3ffcc29bb69d.png", count: 5 },
+    { name: "NYU", logo: "https://logos-world.net/wp-content/uploads/2021/09/New-York-University-NYU-Logo.png", count: 3 }
   ];
 
   return (
