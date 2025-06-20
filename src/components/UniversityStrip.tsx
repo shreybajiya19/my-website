@@ -1,4 +1,3 @@
-
 const UniversityStrip = () => {
   const universities = [
     { name: "Harvard", logo: "/lovable-uploads/d7bfc3b5-7528-4810-a57a-3eb1682a7b71.png", count: 2 },
@@ -9,8 +8,8 @@ const UniversityStrip = () => {
     { name: "Columbia", logo: "/lovable-uploads/5df6e037-024b-4bd0-b707-91cbcf853fdb.png", count: 3 },
     { name: "UC Berkeley", logo: "/lovable-uploads/d0ce02b2-f59f-4932-8607-e79326219e4b.png", count: 6 },
     { name: "LSE", logo: "/lovable-uploads/81c10495-c095-42a2-a9ee-fec3fb09fb2a.png", count: 2 },
-    { name: "USC", logo: "/lovable-uploads/3756ca46-e4d8-4699-b7e4-3ffcc29bb69d.png", count: 5 },
-    { name: "NYU", logo: "https://logos-world.net/wp-content/uploads/2021/09/New-York-University-NYU-Logo.png", count: 3 }
+    { name: "USC", logo: "/lovable-uploads/0f057e13-fe49-40e0-90a0-39156b9a5f67.png", count: 5 },
+    { name: "NYU", logo: "/lovable-uploads/697481c4-1102-4eb2-84ec-be36f5aa3c79.png", count: 3 }
   ];
 
   return (

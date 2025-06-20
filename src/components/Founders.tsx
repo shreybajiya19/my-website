@@ -43,11 +43,11 @@ const Founders = () => {
                       UCL
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="/lovable-uploads/6bde60e0-176a-4462-be06-ad5b15caed74.png" alt="St Andrews" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/b7b705b1-b1f1-45f9-99c0-a9c9594226c0.png" alt="St Andrews" className="h-4 w-4 object-contain" />
                       St Andrews
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="/lovable-uploads/5df6e037-024b-4bd0-b707-91cbcf853fdb.png" alt="KCL" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/e920c3c7-d950-4465-b7b9-213bc604f285.png" alt="KCL" className="h-4 w-4 object-contain" />
                       KCL
                     </div>
                   </div>
@@ -95,7 +95,7 @@ const Founders = () => {
                       USC
                     </div>
                     <div className="flex items-center gap-1 bg-gray-100 px-3 py-1 rounded-full text-xs">
-                      <img src="/lovable-uploads/ce16da0f-1291-4726-bbd0-9684bad8e371.png" alt="Purdue" className="h-4 w-4 object-contain" />
+                      <img src="/lovable-uploads/0e2e5c92-144c-4c66-9603-bfe43e4ee4b0.png" alt="Purdue" className="h-4 w-4 object-contain" />
                       Purdue
                     </div>
                   </div>
